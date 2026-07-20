@@ -10,7 +10,7 @@ cask "wrangler" do
   homepage "https://wrangler-control.com/"
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Wrangler.app"
 
